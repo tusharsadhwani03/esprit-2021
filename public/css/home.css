@@ -9,6 +9,12 @@ html{
 body{
     background-color: #1D438A; overflow-x: hidden;
 }
+.devo{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
 /*making scroll bar invisible*/
 ::-webkit-scrollbar {
     width: 0px; 
@@ -478,6 +484,9 @@ body{
 
 @media screen and (max-width:200px)
 {
+    #developer h1{
+        font-size: 20px;
+    }
     .hed{
         font-size: small;
     }
@@ -589,7 +598,9 @@ body{
 @media screen and (min-width:200px) and (max-width:400px)
 {
     
-    
+    #developer h1{
+        font-size: 20px;
+    }
     .image img{
         height: 15vh;
     }
@@ -726,7 +737,6 @@ body{
 
 @media screen and (min-width:400px) and (max-width:800px)
 {
-    
     #text span{
         font-size: small;
     }
@@ -903,5 +913,11 @@ body{
     }
     .name{
         font-size: x-large;
+    }
+    .devo{
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
     }
 }
